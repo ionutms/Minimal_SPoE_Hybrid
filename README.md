@@ -1,2 +1,2 @@
-# Mininal_SPoE_Hybrid
+# Minimal_SPoE_Hybrid
  
