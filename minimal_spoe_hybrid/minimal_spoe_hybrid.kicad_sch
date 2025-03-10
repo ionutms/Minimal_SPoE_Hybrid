@@ -2912,12 +2912,6 @@
 		(uuid "4e7338f6-bf78-44bf-b993-dc42d5483955")
 	)
 	(junction
-		(at 195.58 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508437d6-d94d-43ae-a8af-00ff3bd5a1cb")
-	)
-	(junction
 		(at 152.4 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2966,6 +2960,12 @@
 		(uuid "e2a78a73-6343-43a1-8b9a-5cfe1e9f67b6")
 	)
 	(junction
+		(at 195.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9ea0604-9c7c-4208-bc2d-0927be09fa54")
+	)
+	(junction
 		(at 142.24 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2983,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 104.14) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d34f7d-bc86-46b2-92ff-f9e6526db1bd")
+	)
+	(wire
+		(pts
 			(xy 101.6 91.44) (xy 101.6 92.71)
 		)
 		(stroke
@@ -2990,6 +3000,16 @@
 			(type default)
 		)
 		(uuid "1c13d062-157b-4663-b49f-6cfbc50d426c")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa94c9b-6b69-4aa5-aef8-4e2048084f4b")
 	)
 	(wire
 		(pts
@@ -3073,16 +3093,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 96.52) (xy 195.58 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "459ae3d9-9add-4676-94d6-d4e3961be939")
-	)
-	(wire
-		(pts
 			(xy 127 121.92) (xy 142.24 121.92)
 		)
 		(stroke
@@ -3120,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "6196a1bc-1d24-41a8-8d32-61ef9036002f")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 198.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a29522e-0534-4296-b4e2-958cdb08e627")
 	)
 	(wire
 		(pts
@@ -3223,33 +3243,13 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 96.52) (xy 208.28 96.52)
+			(xy 193.04 104.14) (xy 195.58 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0212159-ce38-4bcc-913c-63113e602d3c")
-	)
-	(wire
-		(pts
-			(xy 195.58 96.52) (xy 195.58 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ee6385-bb2e-4b36-82c3-ac5116c74aad")
-	)
-	(wire
-		(pts
-			(xy 198.12 96.52) (xy 195.58 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b671a269-3a07-4d68-81ec-4a07acaeff28")
+		(uuid "af6b74bf-1cef-42ff-ac92-f6b7e50a31f4")
 	)
 	(wire
 		(pts
@@ -3383,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 105.41) (xy 210.82 96.52)
+			(xy 210.82 105.41) (xy 210.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +3777,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_CONNECTORS_DATA_BASE:J_CLP-103-02-G-D-BE")
-		(at 203.2 99.06 0)
+		(at 203.2 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3786,14 +3786,6 @@
 		(fields_autoplaced yes)
 		(uuid "4437b90b-2a1a-4c0f-83cf-75c4b19b2b3a")
 		(property "Reference" "J3"
-			(at 203.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CLP-103-02-G-D-BE"
 			(at 203.2 91.44 0)
 			(effects
 				(font
@@ -3801,18 +3793,15 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:CLP-103-02-G-D-BE"
-			(at 208.28 107.95 0)
-			(show_name yes)
+		(property "Value" "CLP-103-02-G-D-BE"
+			(at 203.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+		(property "Footprint" "connector_footprints:CLP-103-02-G-D-BE"
 			(at 208.28 110.49 0)
 			(show_name yes)
 			(effects
@@ -3823,7 +3812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  3 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
 			(at 208.28 113.03 0)
 			(show_name yes)
 			(effects
@@ -3834,7 +3823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Color" "Black"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  3 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 208.28 115.57 0)
 			(show_name yes)
 			(effects
@@ -3845,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Contact Plating" "Tin"
+		(property "Color" "Black"
 			(at 208.28 118.11 0)
 			(show_name yes)
 			(effects
@@ -3856,7 +3845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Current Rating (A)" "5.2"
+		(property "Contact Plating" "Tin"
 			(at 208.28 120.65 0)
 			(show_name yes)
 			(effects
@@ -3867,7 +3856,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CLP-103-02-G-D-BE"
+		(property "Current Rating (A)" "5.2"
 			(at 208.28 123.19 0)
 			(show_name yes)
 			(effects
@@ -3878,7 +3867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samtec"
+		(property "MPN" "CLP-103-02-G-D-BE"
 			(at 208.28 125.73 0)
 			(show_name yes)
 			(effects
@@ -3889,7 +3878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Angle" "Vertical"
+		(property "Manufacturer" "Samtec"
 			(at 208.28 128.27 0)
 			(show_name yes)
 			(effects
@@ -3900,7 +3889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Surface Mount"
+		(property "Mounting Angle" "Vertical"
 			(at 208.28 130.81 0)
 			(show_name yes)
 			(effects
@@ -3911,7 +3900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number of Rows" "2"
+		(property "Mounting Style" "Surface Mount"
 			(at 208.28 133.35 0)
 			(show_name yes)
 			(effects
@@ -3922,7 +3911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pin Count" "3"
+		(property "Number of Rows" "2"
 			(at 208.28 135.89 0)
 			(show_name yes)
 			(effects
@@ -3933,7 +3922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Pitch (mm)" "1.27"
+		(property "Pin Count" "3"
 			(at 208.28 138.43 0)
 			(show_name yes)
 			(effects
@@ -3944,7 +3933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "CLP-1xx-02-G-D-BE"
+		(property "Pitch (mm)" "1.27"
 			(at 208.28 140.97 0)
 			(show_name yes)
 			(effects
@@ -3955,7 +3944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_CLP-103-02-G-D-BE"
+		(property "Series" "CLP-1xx-02-G-D-BE"
 			(at 208.28 143.51 0)
 			(show_name yes)
 			(effects
@@ -3966,7 +3955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-103-02-G-D-BE"
+		(property "Symbol Name" "J_CLP-103-02-G-D-BE"
 			(at 208.28 146.05 0)
 			(show_name yes)
 			(effects
@@ -3977,8 +3966,19 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating (V)" "300"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-103-02-G-D-BE"
 			(at 208.28 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 208.28 151.13 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 	)
 	(symbol
 		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated")
-		(at 193.04 96.52 90)
+		(at 193.04 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4573,7 +4573,7 @@
 		(dnp no)
 		(uuid "76d08799-5ee1-4590-9090-31921bddb64f")
 		(property "Reference" "TP3"
-			(at 185.42 96.52 90)
+			(at 185.42 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4581,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 190.5 93.98 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4591,7 @@
 			)
 		)
 		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
-			(at 198.12 93.98 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 93.98 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4611,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 93.98 0)
+			(at 195.58 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
