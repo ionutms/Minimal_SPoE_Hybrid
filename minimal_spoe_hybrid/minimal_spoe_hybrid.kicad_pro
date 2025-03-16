@@ -475,6 +475,10 @@
       "version": 3
     },
     "net_colors": {
+      "/CABLE+": "rgb(132, 0, 0)",
+      "/CABLE-": "rgb(0, 132, 132)",
+      "/DATA_AND_POWER_N": "rgb(0, 194, 194)",
+      "/DATA_AND_POWER_P": "rgb(194, 0, 0)",
       "Earth": "rgb(72, 72, 0)",
       "GND": "rgb(132, 132, 132)"
     },
