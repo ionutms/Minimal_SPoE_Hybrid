@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "856327b4-c44b-475e-9a29-cb23280c0f76")
 	(paper "A4")
 	(lib_symbols
@@ -259,6 +259,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_CONNECTORS_DATA_BASE:J_CLP-103-02-G-D-BE"
 			(pin_names
@@ -492,24 +493,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -528,24 +511,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name ""
@@ -556,6 +521,42 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -595,6 +596,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_CONNECTORS_DATA_BASE:J_TBP02R2-381-03BE"
 			(pin_names
@@ -877,6 +879,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_COUPLED_INDUCTORS_DATA_BASE:L_SRF0905A-471Y"
 			(pin_names
@@ -1026,45 +1029,9 @@
 			)
 			(symbol "L_SRF0905A-471Y_1_1"
 				(arc
-					(start -2.54 -5.08)
-					(mid -1.27 -3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.27 -1.27)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end -2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
+					(start -2.54 5.08)
 					(mid -1.27 3.81)
-					(end -2.54 5.08)
+					(end -2.54 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1076,6 +1043,42 @@
 				(circle
 					(center -2.54 3.81)
 					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 -1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.27 -3.81)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1100,6 +1103,42 @@
 					(pts
 						(xy 0.254 5.08) (xy 0.254 -5.08)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.27 3.81)
+					(end 2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.27)
+					(end 2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.27 -1.27)
+					(end 2.54 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -1120,45 +1159,9 @@
 					)
 				)
 				(arc
-					(start 2.54 -2.54)
+					(start 2.54 -5.08)
 					(mid 1.27 -3.81)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 -1.27)
 					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.54)
-					(mid 1.27 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 5.08)
-					(mid 1.27 3.81)
-					(end 2.54 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1186,7 +1189,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -5.08 180)
+					(at -7.62 -5.08 0)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1195,7 +1198,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1222,7 +1225,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 -5.08 0)
+					(at 7.62 -5.08 180)
 					(length 5.08)
 					(name ""
 						(effects
@@ -1231,7 +1234,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1242,45 +1245,9 @@
 			)
 			(symbol "L_SRF0905A-471Y_1_2"
 				(arc
-					(start -2.54 -5.08)
-					(mid -1.27 -3.81)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.27 -1.27)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end -2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
+					(start -2.54 5.08)
 					(mid -1.27 3.81)
-					(end -2.54 5.08)
+					(end -2.54 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1292,6 +1259,42 @@
 				(circle
 					(center -2.54 3.81)
 					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 -1.27)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.27 -3.81)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -1324,42 +1327,6 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 2.54 -2.54)
-					(mid 1.27 -3.81)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 -1.27)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.54)
-					(mid 1.27 1.27)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 2.54 3.81)
 					(radius 0.508)
@@ -1372,9 +1339,45 @@
 					)
 				)
 				(arc
-					(start 2.54 5.08)
+					(start 2.54 2.54)
 					(mid 1.27 3.81)
+					(end 2.54 5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.27)
 					(end 2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.27 -1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 1.27 -3.81)
+					(end 2.54 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1394,6 +1397,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1437,25 +1458,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -5.08 0)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_DIODES_DATA_BASE:D_SMBJ58CA"
 			(pin_names
@@ -1608,24 +1612,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5.08 0 0)
 					(length 1.27)
 					(name ""
@@ -1643,7 +1629,26 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_DIODES_DATA_BASE:D_SP4020-01FTG-C"
 			(pin_names
@@ -1836,24 +1841,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -10.16 0 0)
 					(length 3.81)
 					(name ""
@@ -1871,7 +1858,26 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-midle-50mil-250mil"
 			(pin_names
@@ -1930,9 +1936,9 @@
 			)
 			(symbol "mouse-bite-midle-50mil-250mil_1_1"
 				(arc
-					(start -12.7037 -2.54)
+					(start -12.7037 2.54)
 					(mid -10.4017 0)
-					(end -12.7037 2.54)
+					(end -12.7037 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1986,9 +1992,9 @@
 					)
 				)
 				(arc
-					(start 12.7 2.54)
-					(mid 10.398 0)
-					(end 12.7 -2.54)
+					(start 12.7 -2.54)
+					(mid 10.3977 0)
+					(end 12.7 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1998,6 +2004,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_RESISTORS_DATA_BASE:R_CHV2010-JW-475ELF"
 			(pin_names
@@ -2204,18 +2211,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
 					)
 					(stroke
@@ -2241,6 +2236,18 @@
 				(polyline
 					(pts
 						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2289,6 +2296,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_RESISTORS_DATA_BASE:R_ERJ-3EKF1002V"
 			(pin_names
@@ -2495,18 +2503,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
 					)
 					(stroke
@@ -2532,6 +2528,18 @@
 				(polyline
 					(pts
 						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -2580,11 +2588,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "UNITED_TEST_POINTS:TestPoint_Castelated"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2669,12 +2682,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2801,12 +2819,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2897,6 +2920,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -6130,4 +6154,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
