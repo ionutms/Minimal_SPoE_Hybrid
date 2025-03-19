@@ -1,0 +1,77 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "d3d4240f-2ac7-4a6d-9e95-a1f2b87e04a3",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": true,
+        "export_soldermask": true,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "brep",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 1,
+        "optimize_step": true,
+        "output_filename": "minimal_spoe_hybrid.glb",
+        "overwrite": false,
+        "subst_models": true,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "user_origin.x": 136.271,
+        "user_origin.y": 108.6866,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "8519739c-0fbc-463a-bbeb-6d850a6dde58",
+      "settings": {
+        "command": "kicad-cli pcb export vrml minimal_spoe_hybrid.kicad_pcb",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "8519739c-0fbc-463a-bbeb-6d850a6dde58.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "88ebb6b8-5cc7-4037-b35d-2c6ca4efbfae",
+      "settings": {
+        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o minimal_spoe_hybrid_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 1.1 --pan '0,0,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "88ebb6b8-5cc7-4037-b35d-2c6ca4efbfae.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "08d93e30-7b03-4abf-9921-58a417879b0f",
+      "only": [],
+      "settings": {
+        "output_path": "${KIPRJMOD}"
+      },
+      "type": "folder"
+    }
+  ]
+}
