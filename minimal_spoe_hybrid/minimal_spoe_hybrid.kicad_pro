@@ -514,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": ".glb",
+      "step": "minimal_spoe_hybrid.step",
       "svg": "",
       "vrml": "minimal_spoe_hybrid.wrl"
     },
