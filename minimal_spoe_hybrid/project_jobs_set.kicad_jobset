@@ -4,10 +4,10 @@
       "description": "",
       "id": "a6d0f756-6e7e-4ec0-af35-602a75e5eccd",
       "settings": {
-        "command": "kicad-cli pcb export glb minimal_spoe_hybrid.kicad_pcb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
+        "command": "kicad-cli pcb export glb minimal_spoe_hybrid.kicad_pcb -o docs\\3d_models\\minimal_spoe_hybrid.glb --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask --fill-all-vias --cut-vias-in-body",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "",
+        "output_filename": "export_glb.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -16,10 +16,10 @@
       "description": "",
       "id": "8519739c-0fbc-463a-bbeb-6d850a6dde58",
       "settings": {
-        "command": "kicad-cli pcb export vrml minimal_spoe_hybrid.kicad_pcb",
+        "command": "kicad-cli pcb export vrml minimal_spoe_hybrid.kicad_pcb -o docs\\3d_models\\minimal_spoe_hybrid.wrl",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "8519739c-0fbc-463a-bbeb-6d850a6dde58.log",
+        "output_filename": "export_wrl.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -28,10 +28,10 @@
       "description": "",
       "id": "88ebb6b8-5cc7-4037-b35d-2c6ca4efbfae",
       "settings": {
-        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o minimal_spoe_hybrid_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 1.1 --pan '0,0,0'",
+        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o docs\\pictures\\minimal_spoe_hybrid_side.png --background transparent --quality high --rotate '-45,0,45' --zoom 0.9 --pan '0,-0.5,0'",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "88ebb6b8-5cc7-4037-b35d-2c6ca4efbfae.log",
+        "output_filename": "export_side_png.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -40,10 +40,34 @@
       "description": "",
       "id": "0c323f61-2bab-49b5-bfef-6237a7939045",
       "settings": {
-        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o minimal_spoe_hybrid_top.png --side top --background transparent --quality high --zoom 1.1 --pan '0,0,0'",
+        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o docs\\pictures\\minimal_spoe_hybrid_top.png --side top --background transparent --quality high --zoom 1.6 --pan '0,0,0'",
         "description": "",
         "ignore_exit_code": false,
-        "output_filename": "",
+        "output_filename": "export_top_png.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "bfc7bda9-7e9a-4603-8b47-46f2cf904bfc",
+      "settings": {
+        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o docs\\pictures\\minimal_spoe_hybrid_front.png --side front --background transparent --quality high --zoom 1.6 --pan '0,-1,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "export_front_png.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "d17f9f14-a22a-43c2-9c2e-d53bad81289c",
+      "settings": {
+        "command": "kicad-cli pcb render minimal_spoe_hybrid.kicad_pcb -o docs\\pictures\\minimal_spoe_hybrid_right.png --side right --background transparent --quality high --zoom 1.6 --pan '0,-1,0'",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "export_right_png.log",
         "record_output": true
       },
       "type": "special_execute"
@@ -55,10 +79,27 @@
   "outputs": [
     {
       "description": "",
-      "id": "08d93e30-7b03-4abf-9921-58a417879b0f",
-      "only": [],
+      "id": "1e302fb4-fe24-444b-94e1-2bd975b20ee1",
+      "only": [
+        "a6d0f756-6e7e-4ec0-af35-602a75e5eccd",
+        "8519739c-0fbc-463a-bbeb-6d850a6dde58"
+      ],
       "settings": {
-        "output_path": "${KIPRJMOD}"
+        "output_path": "${KIPRJMOD}\\docs\\3d_models"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "199a92d7-c637-4109-bddf-f2cb0313f00b",
+      "only": [
+        "88ebb6b8-5cc7-4037-b35d-2c6ca4efbfae",
+        "0c323f61-2bab-49b5-bfef-6237a7939045",
+        "bfc7bda9-7e9a-4603-8b47-46f2cf904bfc",
+        "d17f9f14-a22a-43c2-9c2e-d53bad81289c"
+      ],
+      "settings": {
+        "output_path": "${KIPRJMOD}\\docs\\pictures"
       },
       "type": "folder"
     }
